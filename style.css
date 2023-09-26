@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0em;
+    padding: 0em;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.header{
+   height: 4em;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+h1{
+    margin-left: 0.5em;
+}
+#chip{
+    margin-left: 1em;
+    color:rgb(63, 63, 255);
+}
+.div-busca{
+    display: inline;
+    margin-left: auto;
+    padding: 1em;
+}
+.busca{
+    width: 30em;
+    height: 2em;
+    border-style: none;
+    border-radius: 0.2em;
+    background-color: #d8d8d8;
+    font-weight:500;
+    font-size: large;
+}
+.divider01{
+    width: 100%;
+    border-style: none;
+    border-top: 0.13em solid #ccc;
+    margin-top: 0.2em;
+}
+.divider02{
+    width: 100%;
+    border-style: none;
+    margin-top: 1em;
+    border-top: 0.13em solid #ccc;
+}
+.lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    font-weight: 500;
+    color: black;
+}
+.lista ul li{
+   display: inline;
+}
+.lista ul li a{
+    display: inline;
+}
+.lista li a:hover{
+    color: rgb(63, 63, 255);
+    border-radius: 0.2em;
+}
+.lista a{
+    text-decoration: none;
+}
+/*Section*/
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.section a{
+    text-decoration: none;
+}
+.section a:hover{
+    color: rgb(63, 63, 255) ;
+}
+.info-principal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+}
+.info-principal h2{
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+#image01{
+    width: 50em;
+    height: 25em;
+    border-radius: 0.5em;
+}
+.infos-secundarias{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    margin-top: 3em;
+    
+}
+.imagens-secundarias{
+    height: 7em;
+    width: 15em;
+    border-radius: 0.5em;
+}
+.divider03{
+    width: 70%;
+    border-style: none;
+    margin-top: 1em;
+    border-top: 0.13em solid #ccc;
+}
+.footer-div-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.footer-div-info button{
+    height: 2em;
+    width: 2em;
+    border-radius: 10em;
+    background-color: white;
+    font-weight: 700;
+    font-size: large;
+    border-style: dashed;
+    border-color:rgb(63, 63, 255) ;
+    margin-left: 1em;
+}
+.footer-div-info button:hover{
+    background-color: rgb(63, 63, 255);
+    color: white;
+}
+.div-mais-lidas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20em;
+    margin-top: 2em;
+}
+.div-mais-lidas ul{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    list-style: none;
+}
+.div-mais-lidas button{
+    background-color: white;
+    border-style: none;
+    font-weight: 500;
+    font-size: medium;
+    height: 2em;
+    width: 5em;
+}
+.div-mais-lidas button:hover{
+    background-color: rgba(63, 63, 255, 0.637);
+    border-radius: 0.5em;
+}
+.div-mais-lidas button:focus{
+    background-color: rgba(63, 63, 255, 0.637);
+    border-radius: 0.5em;
+    border-style:solid;
+    border-color: rgba(63, 63, 255, 0.795);
+    border-width: medium;
+
+}
+.section-02{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+}
+.infos-mais-lidas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 1.5em;
+}
